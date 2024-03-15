@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import BookList from '../components/BookList';
+import BookList from '../components/BookList.jsx';
 
 const BooksListPage = () => {
   const [books, setBooks] = useState([]);
